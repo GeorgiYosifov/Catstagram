@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<UserSecretsId>aspnet-Catstagram.Server-422665CC-A55F-4E65-A406-421EBA0B6C27</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="Data\Migrations\20200819095822_AuditInformation.cs" />
+	  <Compile Remove="Data\Migrations\20200819095822_AuditInformation.Designer.cs" />
+	  <Compile Remove="Data\Migrations\20200827084207_AuditInformationCreatedByNotRequired.cs" />
+	  <Compile Remove="Data\Migrations\20200827084207_AuditInformationCreatedByNotRequired.Designer.cs" />
+	  <Compile Remove="Data\Migrations\20200827090118_AuditInformation.cs" />
+	  <Compile Remove="Data\Migrations\20200827090118_AuditInformation.Designer.cs" />
+	  <Compile Remove="Data\Migrations\20200908145556_UserProfiles.cs" />
+	  <Compile Remove="Data\Migrations\20200908145556_UserProfiles.Designer.cs" />
+	  <Compile Remove="Data\Migrations\20200908152038_UserProfiles.cs" />
+	  <Compile Remove="Data\Migrations\20200908152038_UserProfiles.Designer.cs" />
+	  <Compile Remove="Data\Migrations\20200908153923_UserProfiles.cs" />
+	  <Compile Remove="Data\Migrations\20200908153923_UserProfiles.Designer.cs" />
+	  <Compile Remove="Data\Migrations\20200908160355_UserProfiles.cs" />
+	  <Compile Remove="Data\Migrations\20200908160355_UserProfiles.Designer.cs" />
+	  <Compile Remove="Data\Migrations\20200908160655_UserProfiles.cs" />
+	  <Compile Remove="Data\Migrations\20200908160655_UserProfiles.Designer.cs" />
+	  <Compile Remove="Data\Migrations\20200908161106_UserProfiles.cs" />
+	  <Compile Remove="Data\Migrations\20200908161106_UserProfiles.Designer.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.0-preview.8.20414.8" />
+		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="5.0.0-preview.8.20414.8" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0-preview.8.20414.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.0-preview.8.20407.4" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.0-preview.8.20407.4">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.5.1" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2020-09-08T16:28:15.7872418Z"
+    }
+  },
+  "parameters": {
+    "CatstagramServer20200812175029.subscriptionId": {
+      "Type": "subscription",
+      "Value": "4a24af33-d6e3-4af4-a29e-328b1ecf406c"
+    },
+    "CatstagramServer20200812175029.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "CatstagramServer20200812175029ResourceGroup"
+    },
+    "CatstagramServer20200812175029.resourceName": {
+      "Type": null,
+      "Value": "CatstagramServer20200812175029"
+    },
+    "mssql1.subscriptionId": {
+      "Type": "subscription",
+      "Value": "4a24af33-d6e3-4af4-a29e-328b1ecf406c"
+    },
+    "CatstagramServer20200812175029.resourceGroupLocation": {
+      "Type": null,
+      "Value": "southcentralus"
+    },
+    "mssql1.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "CatstagramServer20200812175029ResourceGroup"
+    },
+    "subscriptionId": {
+      "Type": "subscription",
+      "Value": "4a24af33-d6e3-4af4-a29e-328b1ecf406c"
+    }
+  }
+}
